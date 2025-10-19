@@ -1,0 +1,31 @@
+# PyTorch & CUDA (adjust version to your setup)
+torch
+torchvision
+torchaudio
+
+# Transformers for CLIP text encoding
+transformers
+
+# Video & image handling
+opencv-python
+imageio
+imageio-ffmpeg
+numpy
+scipy
+Pillow
+tqdm
+
+# 3D mesh processing & rendering
+trimesh
+PyYAML
+matplotlib
+
+# Face alignment for DECA
+face-alignment
+
+# Optional: for DECA / FLAME fitting
+scikit-image
+
+# Optional: for PyTorch3D rendering if you want high-quality 3D meshes
+# Make sure CUDA version matches your PyTorch installation
+# conda install -c pytorch3d pytorch3d
