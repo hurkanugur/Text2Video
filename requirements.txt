@@ -1,31 +1,33 @@
 # PyTorch & CUDA (adjust version to your setup)
-torch
-torchvision
-torchaudio
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
 
 # Transformers for CLIP text encoding
-transformers
+transformers>=4.35.0
 
 # Video & image handling
-opencv-python
-imageio
-imageio-ffmpeg
-numpy
-scipy
-Pillow
-tqdm
+opencv-python>=4.8.0
+imageio>=2.30.0
+imageio-ffmpeg>=0.4.10
+numpy>=1.25.0
+scipy>=1.11.0
+Pillow>=10.1.0
+tqdm>=4.66.0
 
 # 3D mesh processing & rendering
-trimesh
-PyYAML
-matplotlib
+trimesh>=3.22.0
+pyrender>=0.1.45
+PyYAML>=6.0
+matplotlib>=3.7.2
+pyglet<2.0   # required for trimesh windowed rendering
 
 # Face alignment for DECA
-face-alignment
+face-alignment>=1.4.1
 
 # Optional: for DECA / FLAME fitting
-scikit-image
+scikit-image>=0.21.0
 
-# Optional: for PyTorch3D rendering if you want high-quality 3D meshes
+# Optional: for PyTorch3D rendering (high-quality 3D meshes)
 # Make sure CUDA version matches your PyTorch installation
 # conda install -c pytorch3d pytorch3d
